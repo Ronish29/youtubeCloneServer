@@ -1,4 +1,4 @@
-const likedVideo = require( '../models/likedVideo')
+const likedVideo = require( '../models/LikedVideo')
 
 
 exports.likeVideoController = async(req,res)=>{
