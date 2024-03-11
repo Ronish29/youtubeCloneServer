@@ -5,7 +5,7 @@ let io;
 function initSocket(server) {
     io = socketIo(server, {
         cors: {
-            origin: 'http://localhost:3000',
+            origin: 'https://clinquant-horse-0adb25.netlify.app',
         }
     });
 
