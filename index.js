@@ -17,7 +17,7 @@ const io = initSocket(server);
 
 dotenv.config();
 
-app.use(cors({ origin: 'https://clinquant-horse-0adb25.netlify.app' }));
+app.use(cors({ origin: 'https://65eebe7c38e71118155ec1a9--clinquant-horse-0adb25.netlify.app' }));
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use('/uploads', express.static(path.join('uploads')));
